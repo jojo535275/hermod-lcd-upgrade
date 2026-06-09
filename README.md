@@ -73,7 +73,7 @@ several additional connections not present on the original Hermod LCD module
 
 4 — Modify the front panel
 
-I cut, properly, the front‑panel opening according to this reference picture.
+I carefully cut the front‑panel opening according to the reference picture, protecting the paint from scratches during machining by covering the panel with paper tape.
 
 ![description](IMG_20260526_091539.jpg)
 
