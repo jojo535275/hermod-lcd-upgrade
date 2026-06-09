@@ -1,4 +1,11 @@
+Guide for installing a Topway LM13232BCW‑1 LCD in the Hermod, including wiring and mechanical mods. 
+Reasons for doing it:
 
+- your orginal hermod LCD is faulty (it was my case)
+- you want a bigger size (more readable) screen
+
+
+![description](IMG_20260527_100304.jpg)
 
 
 ===================================================================================
@@ -36,6 +43,8 @@ Both the original and replacement screens are mounted rotated 180°.The Hermod f
 
 The pinout and physical layout of the two LCDs are completely different, so all connections must be rewired according to the schematic.
 
+![description](schema.JPG)
+
 The proper long‑term solution would be to design a new small PCB adapted to the Topway screen.
 
 But for now, I built a working prototype using adapter boards.
@@ -56,9 +65,7 @@ Remark: before soldering, i shorten a bit the 20 header solder pins. in such a w
 
 3 — Wire both adapters
 
-![description](schema.JPG)
-
-I wired the two adapter boards together following the KiCad schematic, including:
+I wired the two adapter boards together following the KiCad schematic above, including:
 
 a 2.2 µF X7R capacitor
 
@@ -67,6 +74,7 @@ several additional connections not present on the original Hermod LCD module
 4 — Modify the front panel
 
 I cut, properly, the front‑panel opening according to this reference picture.
+
 ![description](IMG_20260526_091539.jpg)
 
 
@@ -84,4 +92,4 @@ I added some insulation tape to make sure there are no short-circuits from expos
 
 📌 Future Plan
 
-Next time I order PCBs for other thinks, I’ll probably add a dedicated LCD adapter PCB to the batch so this mod can be done properly.
+Next time I order PCBs for other thinks, I’ll probably add a "custom designed" LCD adapter PCB to the batch so this mod can be done properly.
