@@ -8,7 +8,7 @@ Reasons for doing it:
 ![description](IMG_20260527_100304.jpg)
 
 
-===================================================================================
+============================================================================
 
 ⚠️ DISCLAIMER
 
@@ -23,7 +23,7 @@ By doing this mod, you will:
 So do it at your own risks !!!
 
 
-===================================================================================
+============================================================================
 
 
 So I replaced the original Hermod LCD module using a [Topway LM13232BCW‑1](https://fr.aliexpress.com/item/1005011580661844.html?spm=a2g0o.order_list.order_list_main.5.21ef5e5bzr0rSb&gatewayAdapt=glo2fra) display.
