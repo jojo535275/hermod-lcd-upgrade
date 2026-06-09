@@ -1,20 +1,25 @@
-Sorry for the delay in replying.
 
-Here are the details of what i did
 
-=====================================================
 
-DISCLAIMER: this display upgrade modification does not imply any changes on the Hermod PCB but it requires a irreversible mechanical change on your Hermod front panel.so, doing it will:
+===================================================================================
 
-Avoid your Hermod module warranty (if this one was still available)
+⚠️ DISCLAIMER
 
-potentially compromise the reselling of you Hermod module on the second hand market! (specially if the cut-out you will make ends being too ugly) 
+This display‑upgrade modification does not require any changes to the Hermod PCB, but it does require an irreversible mechanical modification to the Hermod front panel.
 
-So do it at your own risks !.
+By doing this mod, you will:
 
-=====================================================
+- Avoid your Hermod module warranty (if this one was still available)
 
-So I replaced the original Hermod LCD module using a Topway LM13232BCW‑1 display.
+- Potentially compromise the reselling of you Hermod module on the second hand market! (specially if the cut-out you will make ends being too ugly) 
+
+So do it at your own risks !!!
+
+
+===================================================================================
+
+
+So I replaced the original Hermod LCD module using a [Topway LM13232BCW‑1](https://fr.aliexpress.com/item/1005011580661844.html?spm=a2g0o.order_list.order_list_main.5.21ef5e5bzr0rSb&gatewayAdapt=glo2fra) display.
 
 ![description](IMG_20260522_154020.jpg)
 
@@ -31,20 +36,21 @@ Both the original and replacement screens are mounted rotated 180°.The Hermod f
 
 The pinout and physical layout of the two LCDs are completely different, so all connections must be rewired according to the schematic.
 
-The proper long‑term solution would be to design a new small PCB adapted to the Topway screen. 
-but for now, I built a working prototype using adapter boards.
+The proper long‑term solution would be to design a new small PCB adapted to the Topway screen.
 
-🛠️ Prototype Method
+But for now, I built a working prototype using adapter boards.
+
+🛠️ Steps for the "Prototype Method"
 
 ![description](layout.JPG)
 
 1 — Solder the LCD flat cable
 
-I soldered the LCD’s flex cable onto a 0.7 mm → 2.54 mm FPC adapter using solder paste and flux.
+I soldered the LCD’s flex cable onto a [0.7 mm → 2.54 mm FPC adapter](https://fr.aliexpress.com/item/1005003324824895.html?spm=a2g0o.order_list.order_list_main.17.21ef5e5bzr0rSb&gatewayAdapt=glo2fra) using solder paste and flux.
 
 2 — Prepare the 20‑pin header adapter
 
-I soldered a 20‑pin 2.0 mm header onto a 2.0 mm → 2.54 mm adapter PCB, on the bottom side (the side without printed pin numbers).Soldering on the wrong side will invert the pin numbering between the two rows.
+I soldered a [20‑pin 2.0 mm header connector](https://fr.aliexpress.com/item/4000597517515.html?spm=a2g0o.order_list.order_list_main.23.21ef5e5bzr0rSb&gatewayAdapt=glo2fra) onto a [2.0 mm → 2.54 mm adapter PCB](https://fr.aliexpress.com/item/1005009823719580.html?spm=a2g0o.order_list.order_list_main.11.21ef5e5bzr0rSb&gatewayAdapt=glo2fra), on the bottom side (the side without printed pin numbers).Soldering on the wrong side will invert the pin numbering between the two rows.
 
 Remark: before soldering, i shorten a bit the 20 header solder pins. in such a way that once soldered, the pins do not come out much from the pcb adapter. This will help fitting the lcd at the right place (see step 5 bellow).
 
